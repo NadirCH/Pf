@@ -1,0 +1,153 @@
+@media only screen and (max-width: 600px) {
+    body {
+        overflow-x: hidden;
+    }
+    header {
+        .heading {
+            width: 80%;
+            margin: 0 5rem .4rem 5rem;
+            font-size: 70px;
+            text-align: left;
+        }
+        .sm-heading {
+            width: 80%;
+            margin: 0 5rem .4rem 5rem;
+            font-size: 14px;
+            text-align: left;
+        }
+    }
+    section {
+        width: 100%;
+        height: auto;
+        display: flex;
+        position: relative;
+        article {
+            display: none;
+        }
+        main {
+            width: 90%;
+            margin-left: 5rem;
+            padding: 1rem 40px 40px 0;
+            text-align: justify-all;
+            p.aboutMe {
+                width: 100%;
+                line-height: 150%;
+                font-family: var(--main-font);
+                font-size: 1rem;
+            }
+            .work,
+            .skills {
+                margin: 10rem 0 0rem 0;
+                width: 100%;
+                .title {
+                    font-family: var(--main-font);
+                    font-size: 2rem;
+                    margin-bottom: 4rem;
+                    margin-top: 2rem;
+                }
+                .sm-title {
+                    font-family: var(--accent-font);
+                    font-size: 1rem;
+                    font-weight: bold;
+                    margin-bottom: .8rem;
+                }
+                .xsm-title {
+                    font-family: var(--accent-font);
+                    font-size: .7rem;
+                    margin-bottom: 2.5rem;
+                }
+                .rs {
+                    font-family: var(--accent-font);
+                    font-size: 1rem;
+                    font-weight: 900;
+                }
+                p {
+                    font-family: var(--accent-font);
+                    font-size: .9rem;
+                }
+                ul li {
+                    font-family: var(--accent-font);
+                    font-size: .9rem;
+                    margin: 2rem 0 .5rem 2rem;
+                    line-height: 150%;
+                }
+            }
+        }
+    }
+    .slider {
+        display: block;
+        width: 100%;
+        margin-top: 10rem;
+        margin-bottom: 0rem;
+        min-height: 30vh;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        .glide__track {
+            width: 98% !important;
+        }
+        .glide__slide {
+            height: 200px !important;
+            overflow: hidden;
+        }
+        img {
+            width: 100%;
+            height: auto;
+        }
+        .glide__arrows {
+            display: none !important;
+        }
+    }
+    footer {
+        width: 100%;
+        min-height: 100vh;
+        margin-top: 0rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: justify-all;
+        .footer {
+            width: 800px;
+            margin-left: 5rem;
+            float: left;
+            .title {
+                font-family: var(--main-font);
+                font-size: 2rem;
+                margin-bottom: 2rem;
+                margin-top: 2rem;
+            }
+            .certeficated {
+                margin-top: 5rem;
+                .sm-title {
+                    font-family: var(--accent-font);
+                    font-size: 1rem;
+                    font-weight: bold;
+                    margin-bottom: .8rem;
+                }
+                .xsm-title {
+                    font-family: var(--accent-font);
+                    font-size: .7rem;
+                    margin-bottom: 2.5rem;
+                }
+            }
+            p {
+                font-family: var(--accent-font);
+                font-size: .9rem;
+                line-height: 200%;
+                width: 100%;
+            }
+        }
+        .dark {
+            position: absolute;
+            top: 90%;
+            left: 80%;
+            width: 30px;
+            height: 30px;
+            background-color: var(--accent-color);
+            cursor: pointer;
+            .material-icons {
+                font-size: 1.1rem !important;
+                color: var(--bg-color);
+            }
+        }
+    }
+}

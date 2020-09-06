@@ -1,0 +1,166 @@
+@media only screen and (max-width: 600px) {
+  body {
+    overflow-x: hidden;
+  }
+  header .heading {
+    width: 80%;
+    margin: 0 5rem .4rem 5rem;
+    font-size: 70px;
+    text-align: left;
+  }
+  header .sm-heading {
+    width: 80%;
+    margin: 0 5rem .4rem 5rem;
+    font-size: 14px;
+    text-align: left;
+  }
+  section {
+    width: 100%;
+    height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+  }
+  section article {
+    display: none;
+  }
+  section main {
+    width: 90%;
+    margin-left: 5rem;
+    padding: 1rem 40px 40px 0;
+    text-align: justify-all;
+  }
+  section main p.aboutMe {
+    width: 100%;
+    line-height: 150%;
+    font-family: var(--main-font);
+    font-size: 1rem;
+  }
+  section main .work,
+  section main .skills {
+    margin: 10rem 0 0rem 0;
+    width: 100%;
+  }
+  section main .work .title,
+  section main .skills .title {
+    font-family: var(--main-font);
+    font-size: 2rem;
+    margin-bottom: 4rem;
+    margin-top: 2rem;
+  }
+  section main .work .sm-title,
+  section main .skills .sm-title {
+    font-family: var(--accent-font);
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: .8rem;
+  }
+  section main .work .xsm-title,
+  section main .skills .xsm-title {
+    font-family: var(--accent-font);
+    font-size: .7rem;
+    margin-bottom: 2.5rem;
+  }
+  section main .work .rs,
+  section main .skills .rs {
+    font-family: var(--accent-font);
+    font-size: 1rem;
+    font-weight: 900;
+  }
+  section main .work p,
+  section main .skills p {
+    font-family: var(--accent-font);
+    font-size: .9rem;
+  }
+  section main .work ul li,
+  section main .skills ul li {
+    font-family: var(--accent-font);
+    font-size: .9rem;
+    margin: 2rem 0 .5rem 2rem;
+    line-height: 150%;
+  }
+  .slider {
+    display: block;
+    width: 100%;
+    margin-top: 10rem;
+    margin-bottom: 0rem;
+    min-height: 30vh;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .slider .glide__track {
+    width: 98% !important;
+  }
+  .slider .glide__slide {
+    height: 200px !important;
+    overflow: hidden;
+  }
+  .slider img {
+    width: 100%;
+    height: auto;
+  }
+  .slider .glide__arrows {
+    display: none !important;
+  }
+  footer {
+    width: 100%;
+    min-height: 100vh;
+    margin-top: 0rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: justify-all;
+  }
+  footer .footer {
+    width: 800px;
+    margin-left: 5rem;
+    float: left;
+  }
+  footer .footer .title {
+    font-family: var(--main-font);
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+  }
+  footer .footer .certeficated {
+    margin-top: 5rem;
+  }
+  footer .footer .certeficated .sm-title {
+    font-family: var(--accent-font);
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: .8rem;
+  }
+  footer .footer .certeficated .xsm-title {
+    font-family: var(--accent-font);
+    font-size: .7rem;
+    margin-bottom: 2.5rem;
+  }
+  footer .footer p {
+    font-family: var(--accent-font);
+    font-size: .9rem;
+    line-height: 200%;
+    width: 100%;
+  }
+  footer .dark {
+    position: absolute;
+    top: 90%;
+    left: 80%;
+    width: 30px;
+    height: 30px;
+    background-color: var(--accent-color);
+    cursor: pointer;
+  }
+  footer .dark .material-icons {
+    font-size: 1.1rem !important;
+    color: var(--bg-color);
+  }
+}
+/*# sourceMappingURL=mediaQ.css.map */
